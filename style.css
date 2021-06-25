@@ -1,0 +1,76 @@
+body{
+    font-family:Proxima;
+}
+h3{
+    font-size:25px;
+    display:inline;
+    margin-left:50px;
+
+}
+.div1{
+    width:100%;
+    text-align:left;
+}
+.div1 img{
+    width:80px;
+    border-radius:50px;
+}
+.div1 button{
+    float:right;
+    font-size:18px;
+    border:1px inset grey;
+background-color:transparent;
+}
+#btn2{
+    color:black;
+    font-size:18px;
+    border:none;
+background-color:rgba(128, 128, 128, 0.616);
+width:fit-content;
+padding:10px;
+border-radius:10px;
+margin-bottom:10px;
+}
+#l1{
+    color:black;
+    font-size:18px;
+    border:none;
+background-color:rgba(128, 128, 128, 0.616);
+width:fit-content;
+padding:10px;
+border-radius:10px;
+margin-bottom:10px;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    background-color:rgba(128, 128, 128, 0.555);
+    font-size:20px;
+    width:100%;
+    text-align:center;
+    font-family:Proxima;
+    line-height:2;
+}
+@font-face {
+    font-family: Proxima;
+    src: url(ProximaNova-Regular.woff);
+    
+  }
+  .modal-dialog{
+      width:90%;
+
+  }
+  .instructions{
+      width: 45%;
+      display:inline-block;
+  }
+  #webcam{
+      background-image:url("game_console.png");
+      background-size:cover;
+      background-position:center;
+      width:fit-content;
+      padding-left: 65px !important;
+      padding-right:65px !important;
+      padding-top:25px;
+      padding-bottom:20px;
+  }
